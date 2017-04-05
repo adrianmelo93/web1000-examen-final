@@ -6,7 +6,7 @@
 4-Join the two arrays
 
 2-Using JavaScript, generate a random number between 50 and 100.
-     Math.random() * 51 + 50;
+     Math.random() * 50 + 50;
 
 3-Using Javascript, generate a random number between -100 and 100.
     Math.random() * 200 - 100;
@@ -46,11 +46,14 @@ function twodconcat(arr){
 10-Write a function which, given a 2-d array and another value x, returns true if x is present in the two d array, and false otherwise.
 function containsElement(arr, x){
 for(var i = 0; i <= arr.length;i++){
-    for(var j = 0; j < arr[i].lenght;j++){
-        if(x === arr) true;
+    for(var v = 0; v < arr[i].lenght;v++){
+          if(arr[i][v] === x) {
+          return true;
+          }
 
       }
     }
+    return false;
 }
 
 11-What is the relationship between html, the $scope construct, and angular expressions? (Expressions are the ones that are written like so: {{quote}} ).
