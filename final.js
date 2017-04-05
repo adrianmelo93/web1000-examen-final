@@ -17,15 +17,15 @@
     }
 
 5-Re-state the following expression without using negation: !(10 > x)
-       (10 < x)
+       10 < x
 
 
 6-Re-state the following expression without using negation: !(a > 10 && b <= 5)
-        (a < 10 || b > 5)
+        a < 10 || b > 5
 
 
 7-Re-state the following expression without using negation: !(!isLegal || !isFelony)
-          (isLegal && isFelony)
+          isLegal && isFelony
 
 8-What is an Angular directive?
     Extend HTML with custom attributes and elements
@@ -36,8 +36,8 @@
 function twodconcat(arr){
     var result = [];
     for(var i = 0; i < arr.lenght;i++){
-    for(var v = 0; v < arr[i].lenght;v++){
-    result.push(arr[i][v]);
+        for(var v = 0; v < arr[i].lenght;v++){
+          result.push(arr[i][v]);
       }
   }
   return result;
